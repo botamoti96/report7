@@ -28,9 +28,15 @@ int main(void){
     const int SIZE = 5;
     int scores[] = {0, 60, 70, 100, 90};
     int scores2[] = {100, 60, 70, 100, 90, 80};
-    sortArray(scores, SIZE);
-    sortArray(scores2, SIZE);
+    printf("scores = ");
     printArray(scores, SIZE);
+    sortArray(scores, SIZE);
+    printf("result = ");
+    printArray(scores, SIZE);
+    printf("scores2 = ");
+    printArray(scores2, SIZE);
+    sortArray(scores2, SIZE);
+    printf("result = ");
     printArray(scores2, SIZE);
     return 0;
 }

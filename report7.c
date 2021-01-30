@@ -27,8 +27,11 @@ void printArray(int array[], int SIZE){
 int main(void){
     const int SIZE = 5;
     int scores[] = {0, 60, 70, 100, 90};
+    int scores2[] = {100, 60, 70, 100, 90, 80};
     sortArray(scores, SIZE);
+    sortArray(scores2, SIZE);
     printArray(scores, SIZE);
+    printArray(scores2, SIZE);
     return 0;
 }
 
